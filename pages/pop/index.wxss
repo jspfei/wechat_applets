@@ -1,0 +1,6 @@
+/* pages/pop/index.wxss */
+.rule_bg{
+  margin-top: 0%;
+  width: 100%;
+  position: absolute;
+}

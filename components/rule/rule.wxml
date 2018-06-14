@@ -1,0 +1,32 @@
+<!--components/rule/rule.wxml-->
+
+<view class='modal-mask' catchtouchmove="preventTouchMove" wx:if="{{showModal}}">
+
+</view>
+<view class="center " wx:if="{{showModal}}">
+
+  <view class="rule_area">
+    <view class="line_center">
+      <text class="text_top">游戏规则   </text>
+    </view>
+    <view class="line_top">
+      <text class="text">1、每人每日可多次参与游戏   </text>
+    </view>
+    <view class="line_start">
+      <text class="text1">2、每次消耗100金币即可参与猜歌游戏</text>
+    </view>
+    <view class="line_start">
+      <text class="text1">3、倒计时10秒内，根据播放的音频，从四个选项中选出正确的歌名或者歌手 </text>
+    </view>
+   <view class="line_start">
+      <text class="text">4、回答错误可通过金币购买和求助好友两种方式跳过该题   </text>
+    </view>
+    <view class="line_start">
+      <text class="text">5、答对10题可获得通关大礼包，礼包中有金币、现金红包、魔急便优惠券等</text>
+    </view>
+   
+    
+  </view>
+
+  <image decode="true" class="btn_close" src='/images/close.png' bindtap='closeScene'></image>
+</view>

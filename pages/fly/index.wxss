@@ -1,0 +1,12 @@
+/* pages/fly/index.wxss */
+.gold_anim{
+  width: 50rpx;
+  height: 50rpx;  
+  position: absolute;
+  opacity: 1;
+}
+.btn{
+  position: absolute;
+  top:500rpx;
+  left: 500rpx;
+}

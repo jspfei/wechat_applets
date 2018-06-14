@@ -1,0 +1,4 @@
+<!--pages/share/index.wxml-->
+  <button class="addfriend" open-type="share"> 
+      <text class='addfriendlabel'>分享好友</text> 
+  </button>

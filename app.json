@@ -1,12 +1,16 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/share/index",
+    "pages/pop/index",
+     "pages/fly/index",
+        "pages/logs/logs"
   ],
+  
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "微信小程序技术",
     "navigationBarTextStyle":"black"
   }
 }

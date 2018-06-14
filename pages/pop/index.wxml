@@ -1,0 +1,4 @@
+<!--pages/pop/index.wxml-->
+  <!-- 规则界面 -->
+  <button bindtap='onClick'>点击弹出界面</button>
+  <rule class="rule_bg" showModal="{{isShowRuleScene==1}}" bind:closeEvent="closeRuleSceneEvent"></rule>

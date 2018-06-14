@@ -1,0 +1,9 @@
+<!--pages/fly/index.wxml-->
+<button id="t{{index}}" class="btn" bindtap='onClick'>飞行</button>
+
+<view class=".hide {{showGoldAnimPoint ? 'show':'' }}">
+  <image class='gold_anim' src='/images/gold.png' animation="{{animationData1}}"></image>
+  <image class='gold_anim' src='/images/gold.png' animation="{{animationData2}}"></image>
+  <image class='gold_anim' src='/images/gold.png' animation="{{animationData3}}"></image>
+  <image class='gold_anim' src='/images/gold.png' animation="{{animationData4}}"></image>
+</view> 
