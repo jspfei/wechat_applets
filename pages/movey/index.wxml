@@ -1,0 +1,2 @@
+<!--pages/movey/index.wxml-->
+ <image class="guidefinger" animation="{{moveYAnim}}" src='/images/gold.png'></image>

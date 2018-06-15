@@ -4,6 +4,9 @@
     "pages/share/index",
     "pages/pop/index",
      "pages/fly/index",
+     "pages/empower/index",
+     "pages/movey/index",
+     "pages/flex/index",
         "pages/logs/logs"
   ],
   

@@ -1,0 +1,25 @@
+<!--pages/flex/index.wxml-->
+<view class='main-row'>
+<view class="item item1">1</view>
+<view class="item item2">1</view>
+<view class="item item3">1</view>
+</view>
+<view class='main-row-reverse'>
+<view class="item item1">1</view>
+<view class="item item2">1</view>
+<view class="item item3">1</view>
+</view>
+
+<!--pages/flex/index.wxml-->
+<view class='main-row-between'>
+<view class="item item1">1</view>
+<view class="item item2">1</view>
+<view class="item item3">1</view>
+</view>
+
+<image class="top" src="../../images/gold.png">
+</image>
+<image class="bottom" src="../../images/gold.png">
+</image>
+<image class="right" src="../../images/gold.png">
+</image>

@@ -1,0 +1,57 @@
+/* pages/flex/index.wxss */
+.main-row{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+.main-row-reverse{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: center
+}
+.main-row-between{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.item{
+  width:100rpx;
+  height: 100rpx;
+}
+.item1{
+  background-color: red;
+}
+.item2{
+  background-color: dodgerblue;
+}
+.item3{
+  background-color: greenyellow;
+  order: -1;
+}
+
+.top{
+  width:50rpx;
+  height: 50rpx;
+  position: absolute;
+  top:300rpx;
+  left:250rpx;
+}
+.bottom{
+  width:50rpx;
+  height: 50rpx;
+  position: absolute;
+  bottom:30rpx;
+}
+.right{
+    width:50rpx;
+  height: 50rpx;
+  position: absolute;
+  right:30rpx;
+}

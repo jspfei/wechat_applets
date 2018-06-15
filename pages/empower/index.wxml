@@ -1,0 +1,2 @@
+<!--pages/empower/index.wxml-->
+<button  open-type="getUserInfo"  bindgetuserinfo="bindGetUserInfo"> 点击授权</button>

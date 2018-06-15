@@ -7,14 +7,21 @@ Page({
     list:[
       "分享好友",
       "弹出界面",
-      "飞行动画"
-    ],
+      "飞行动画",
+      "微信授权",
+      "上下移动动画",
+      "Flex布局"
+    ], 
     pageList:[
       "../share/index",
       "../pop/index",
       "../fly/index",
+      "../empower/index",
+      "../movey/index",
+      "../flex/index"
     ]
   },
+   
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({
