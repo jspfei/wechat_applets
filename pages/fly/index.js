@@ -6,6 +6,10 @@ Page({
    */
   data: {
     showGoldAnimPoint: false,//金币动画是否显示
+    showGoldAnimPoint1:true,
+    left:200,
+    top:550,
+    goldAnims:[]
   },
 
   /**
@@ -65,7 +69,57 @@ Page({
   },
   onClick:function(event){
     var id = event.currentTarget.id; 
-    this.gold_fly(id);
+    this.click = true;
+    //this.gold_fly(id);
+    this.gold_fly2();
+  },
+  gold_fly2:function(){
+    this.setData({
+      left:200,
+      top:550,
+      rotate:0, 
+      showGoldAnimPoint1:true
+    })
+    var self = this;
+    
+    self.animation5=  self.setGoldToUserGoldIconAim2(600, 0, "30rpx", "95rpx",this); 
+    self.animation6 = self.setGoldToUserGoldIconAim2(600, 90, "30rpx", "95rpx", this);
+    self.animation7 = self.setGoldToUserGoldIconAim2(600, 180, "30rpx", "95rpx", this);
+    self.animation8 = self.setGoldToUserGoldIconAim2(600, 270, "30rpx", "95rpx", this);
+    self.animation9 = self.setGoldToUserGoldIconAim2(600, 360, "30rpx", "95rpx", this);
+    self.animation10 = self.setGoldToUserGoldIconAim2(600, 450, "30rpx", "95rpx", this);
+    self.animation11 = self.setGoldToUserGoldIconAim2(600,540, "30rpx", "95rpx", this);
+    self.animation12 = self.setGoldToUserGoldIconAim2(600, 630, "30rpx", "95rpx", this);
+    self.animation13 = self.setGoldToUserGoldIconAim2(600, 720, "30rpx", "95rpx", this);
+    self.animation14 = self.setGoldToUserGoldIconAim2(600, 810, "30rpx", "95rpx", this);
+    self.setData({
+      
+      animationData5: self.animation5.export(), 
+      animationData6: self.animation6.export(), 
+      animationData7: self.animation7.export(), 
+      animationData8: self.animation8.export(), 
+      animationData9: self.animation9.export(), 
+      animationData10: self.animation10.export(), 
+      animationData11: self.animation11.export(), 
+      animationData12: self.animation12.export(), 
+      animationData13: self.animation13.export(), 
+      animationData14: self.animation14.export(), 
+    })
+
+    setTimeout(function(){
+      if (this.click ){
+        this.click = false;
+        this.gold_fly2();
+      } 
+    }.bind(this),3000)
+  },
+  //设置从点击红包位置飞到 用户信息金币位置
+  setGoldToUserGoldIconAim2: function (duration, delay, top1, left1, self) {
+    var anim = self.createFlyAnim(duration, delay);
+    anim.rotateY(-360).step();
+    anim.rotateY(180).top(top1).left(left1).step().step({ duration: 1000 })
+    return anim;
+
   },
   //创建动画界面
   createFlyAnim: function (duration, delay) {

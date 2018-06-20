@@ -1,9 +1,22 @@
 <!--pages/fly/index.wxml-->
 <button id="t{{index}}" class="btn" bindtap='onClick'>飞行</button>
-
+<button id="t{{index}}" class="btn1" bindtap='onClick'>飞行</button>
 <view class=".hide {{showGoldAnimPoint ? 'show':'' }}">
   <image class='gold_anim' src='/images/gold.png' animation="{{animationData1}}"></image>
   <image class='gold_anim' src='/images/gold.png' animation="{{animationData2}}"></image>
   <image class='gold_anim' src='/images/gold.png' animation="{{animationData3}}"></image>
   <image class='gold_anim' src='/images/gold.png' animation="{{animationData4}}"></image>
+</view> 
+
+<view class=".hide {{showGoldAnimPoint1 ? 'show':'' }}"> 
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData5}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData6}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData7}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData8}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData9}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData10}}"></image> 
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData11}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData12}}"></image>
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData13}}"></image> 
+  <image class='gold_anim1' src='/images/gold.png' style="left:{{left}}rpx; top:{{top}}rpx;" animation="{{animationData14}}"></image>
 </view> 
