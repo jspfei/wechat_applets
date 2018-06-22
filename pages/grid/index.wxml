@@ -1,0 +1,14 @@
+<!--pages/grid/index.wxml-->
+<view class="game-container">
+  <view class="grid-container">
+    <view wx:for="{{grids}}" wx:for-index="rowIdx" wx:key="rowIdx" wx:for-item="row" class="grid-row">
+      <view wx:for="{{row}}" wx:for-index="colIdx" wx:key="colIdx" wx:for-item="cell" class="grid-cell">
+        <view class="tile tile-{{cell.value}}">
+          <view wx:if="{{cell}}" class="tile-inner">
+            {{cell.value}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

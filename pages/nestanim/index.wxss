@@ -1,0 +1,19 @@
+/* pages/nestanim/index.wxss */
+.circle_bg {
+  width: 436rpx;
+  height: 436rpx;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  margin-left: -218rpx;
+  margin-top: -218rpx;
+}
+.cd_needle {
+  width: 232rpx;
+  height: 50rpx;
+  transform: rotate(-20deg); 
+  transform-origin: 87% 50%;    
+  position: absolute;
+  top: 320rpx;
+  right: 140rpx;
+}

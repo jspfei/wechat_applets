@@ -7,6 +7,8 @@
      "pages/empower/index",
      "pages/movey/index",
      "pages/flex/index",
+     "pages/nestanim/index",
+      "pages/grid/index",
         "pages/logs/logs"
   ],
   

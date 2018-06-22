@@ -10,7 +10,9 @@ Page({
       "飞行动画",
       "微信授权",
       "上下移动动画",
-      "Flex布局"
+      "Flex布局",
+      "嵌套动画",
+      "矩阵表格"
     ], 
     pageList:[
       "../share/index",
@@ -18,7 +20,9 @@ Page({
       "../fly/index",
       "../empower/index",
       "../movey/index",
-      "../flex/index"
+      "../flex/index",
+      "../nestanim/index",
+      "../grid/index"
     ]
   },
    

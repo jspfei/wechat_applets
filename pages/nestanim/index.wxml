@@ -1,0 +1,6 @@
+<!--pages/nestanim/index.wxml-->
+<canvas class="circle_bg" canvas-id="circle_bg1" >
+    <!-- <cover-image  class='cd_needle' animation="{{animationNeedle}}" src='../../src/images/game/needle.png'
+     wx:if="{{isShowDialog==0}}"></cover-image> -->
+</canvas>
+  <image class='cd_needle' animation="{{animationNeedle}}" src='../../images/needle.png'></image> 
