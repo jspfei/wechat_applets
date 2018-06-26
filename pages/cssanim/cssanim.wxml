@@ -1,0 +1,2 @@
+<!--pages/cssanim/cssanim.wxml-->
+<image class='needle needle_show' src='/images/needle.png'></image>

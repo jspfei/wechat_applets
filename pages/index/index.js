@@ -12,7 +12,8 @@ Page({
       "上下移动动画",
       "Flex布局",
       "嵌套动画",
-      "矩阵表格"
+      "矩阵表格",
+      "CSS动画"
     ], 
     pageList:[
       "../share/index",
@@ -22,7 +23,8 @@ Page({
       "../movey/index",
       "../flex/index",
       "../nestanim/index",
-      "../grid/index"
+      "../grid/index",
+      "../cssanim/cssanim"
     ]
   },
    

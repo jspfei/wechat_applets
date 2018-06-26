@@ -9,6 +9,7 @@
      "pages/flex/index",
      "pages/nestanim/index",
       "pages/grid/index",
+      "pages/cssanim/cssanim",
         "pages/logs/logs"
   ],
   

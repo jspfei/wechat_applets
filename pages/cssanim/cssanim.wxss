@@ -1,0 +1,39 @@
+/* pages/cssanim/cssanim.wxss */
+
+.needle{
+  width: 232rpx;
+  height: 50rpx;
+  position: absolute;
+  top:40%;
+  left: 200rpx;
+  transform: rotate(-20deg);
+    transform-origin: 50% 100%;  
+}
+
+.needle_show {
+   animation: spin 2s linear infinite; 
+  animation-name: action-needle-up;
+  /* animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: infinite;
+  animation-direction:alternate; */
+}
+
+@keyframes action-needle-up {
+   0% {
+    transform: rotate(-20deg);
+  }
+
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+ 75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-20deg);
+  }
+}
